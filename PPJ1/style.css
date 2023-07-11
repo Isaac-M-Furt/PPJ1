@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Roboto Mono', monospace;
+}
+.botao{
+    position: absolute;
+    width: 100%;
+    font-size: 30px;
+}
+.vida-valor{
+    position: absolute;
+    width: 100%;
+    color: green;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: black;
+}
+.vida-valor p2{
+    color: yellow;
+    margin: 4px;
+    font-size: 40px;
+}
+.vida-valor p{
+    margin: 4px;
+    font-size: 40px;
+}
